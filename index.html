@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confess</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="bg">
+        <h2>Scroll To See Message</h2>
+        <span class="SkewedOne"></span>
+        <span class="SkewedTwo"></span>
+    </section>
+    <section>
+        <h2>From: Me<br>To: You</h2>
+        <p>
+            <br>
+            Hai Feb, 
+            <br><br>
+            Langsung aja ya...pertama kali kita ketemu di depan ruang kelas 8 di hari kamis jam istirahat pertama, saat itu kita berpapasan yang sebelumnya aku cuma sekedar tau nama kamu menjadi tau kamu orangnya yang mana.
+            <br>
+            Intinya orang yang cantik-lah tapi juga pendek ahahaha...maaf bercanda, tapi kamu itu emang kelihatan pendek si soalnya setelah beberapa hari waktu ketemu di jalan saat kamu naik sepeda kelihatan kaki kamu ga sampai ke tanah ahahaha.
+            <br><br>
+            Jujur ya, aku juga ga nyangka yang awalnya cuma tanya tentang film BTS akan berakhir aku suka sama kamu, walaupun aku cuma sekedar tau kamu, cuma nama dan orangnya aja. Aku juga bingung, kok aku bisa suka sama kamu padahal aku gak kenal kamu di real life secara dekat dan cuma kenal lewat media sosial kan ya.
+            <br><br>
+            Berawal dari kita yang sering bahas drama atau artis korea kesukaan masing - masing, mulai dari situ aku ngerasa dekat sebagai teman yang hobi nya sama. <br> Yang awalnya cuma tau nama kamu setelah pembahasan itu aku jadi tau bahwa kamu orangnya asik kalau buat di ajak bahas suatu topik yang ga semua orang akan suka contohnya kpop atau kdrama. 
+            <br><br>
+            Ga kerasa udah mau lulus aja masa SMP nya, aku kira chat tentang pembahasan hobi kita akan stop karena udah ga satu sekolah lagi. Ternyata itu ga, sejak masuk SMK hari pertama yang awalnya aku kira akan boring ternyata ga karena kita tetap lanjutin chat dengan topik yang sama walaupun pernah ada suatu waktu kamu sakit mata...?
+            Iya deh Kayaknya tapi tetap maksa berangkat sekolah akhirnya di sekolah malah pikirannya tentang pulang, pulang, dan pulang kan wkwkw.
+            <br><br>
+            Satu Tahun berjalan masa SMK, pernah suatu waktu kita ga chatan sama sekali karena memang aku nya lagi fokus sama pelajaran jurusan dan kamunya juga pelajaran geografi. Aku kira kita gak akan chatan lagi, ternyata ga...pandemi covid pun datang akhirnya sekolah di ganti menjadi pelajaran jarak jauh selama pelajaran jarak jauh itu aku pun juga berganti yang awalnya nonton drama korea aja juga bertambah nonton anime juga.
+            Awalnya aku cuma sekedar mengisi waktu luang, tapi suatu waktu saat buka aplikasi media sosial ku dan melihat story aku cukup kaget karena kamu juga menonton Shingeki No Kyojin juga, awalnya aku coment "Emang kamu tau siapa Main Characternya?" dan kamu jawab "Eren kan".
+            <br><br>
+            Dari situlah yang awalnya kita cuma bahas tentang drama menjadi bahas anime juga, pembahasan itu terjadi sampai kita kelas 3 ya?<br>
+            Maaf aja kalau aku ga bisa cari topik selain itu, karena memang jujur aja ya setiap aku mau tanya tentang keseharian kamu takutnya kamu risih atau apaansih...jadi mungkin kamu ngerasa bosen atau gimana gitu. Akhirnya dari kemarin kamu juga jawabnya secara singkat, maaf ya mungkin aku nya yang berharap bisa menjadi lebih dari teman tapi mungkin kamu nya engga.
+            <br><br>
+            Udah itu aja, makasi udah mau nemenin selama 4 tahunnya ini sebagai teman yang hobinya sama.
+            <br>
+            Be Care Full & God Bleast You.
+        </p>
+        <br>
+        <a href="file:///E:/RPL%20Punya/pEMBELAJARAN/confess/tiga/index.html">Next</a>    
+    </section>
+    <script>
+        const SkewedOne = document.querySelector('.SkewedOne');
+        const SkewedTwo = document.querySelector('.SkewedTwo');
+        window.addEventListener('scroll', function(){
+            const value1 = -15+window.scrollY/35;
+            const value2 = 15+window.scrollY/-35;
+            SkewedOne.style.transform = "skewY(" + value1 + "deg)";
+            SkewedTwo.style.transform = "skewY(" + value2 + "deg)";
+        })
+    </script>
+</body>
+</html>
